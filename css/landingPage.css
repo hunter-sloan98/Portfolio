@@ -1,0 +1,19 @@
+.landingScreen{
+  padding-top: 400px;
+  padding-bottom: 400px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+
+
+
+.landingSecondaryText{
+  font-family: orbitron;
+}
+
+.display-1{
+  font-family: orbitron;
+  color: lightgray;
+}
