@@ -1,7 +1,7 @@
 #aboutMe{
   font-family: orbitron;
   color: lightgray;
-  width: 65%;
+  width: 75%;
   margin-left: 15px;
 }
 .aboutMePara{
@@ -14,6 +14,7 @@
 
 .display-3{
   font-family: orbitron;
+  font-size: 45px;
   color: lightgray;
 
 }

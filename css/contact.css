@@ -41,14 +41,14 @@
   font-family: orbitron;
   color: rgb(24, 24, 24);
   font-size: 14px;
-  width: 30%;
+  width: 20%;
 }
 
 #message{
   font-family: orbitron;
   color: rgb(24, 24, 24);
   font-size: 14px;
-  width: 40%;
+  width: 30%;
   height: 200px;
 }
 
@@ -56,5 +56,6 @@
   font-family: orbitron;
   color: rgb(24, 24, 24);
   font-size: 14px;
-  width: 15%;
+  width: 20%;
+  height: 30px;
 }
