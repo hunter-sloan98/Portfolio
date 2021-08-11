@@ -1,0 +1,51 @@
+#footer{
+  background-color: lightgray;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height:45px;
+}
+
+.footerHeader{
+  margin-left: 40px;
+  padding-right: 30%;
+  font-family: orbitron;
+}
+
+.topBtn{
+  font-family: orbitron;
+  color: rgb(24, 24, 24);
+  border: 2px solid rgb(24, 24, 24);
+  background-color: gray;
+  text-decoration: none;
+}
+
+.topBtn:hover{
+  color: lightgray;
+}
+
+
+/* icons */
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin{
+  /* background: #007bb5; */
+  color: white;
+}
+
+.fa-github{
+  color: lightgray;
+}

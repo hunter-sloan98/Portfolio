@@ -10,4 +10,25 @@
 .nav-link{
     font-family: orbitron;
 }
+
+#navlink:hover{
+    color: red;
+}
 /* #747681 */
+.navbar-nav{
+    padding-right: 64%;
+}
+
+.resume{
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.resume:visited{
+    color:lightgray;
+}
+
+.resume:hover{
+    color: red;
+}
+
