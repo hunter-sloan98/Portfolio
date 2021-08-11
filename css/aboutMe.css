@@ -1,4 +1,29 @@
 #aboutMe{
   font-family: orbitron;
   color: lightgray;
+  width: 65%;
+  margin-left: 15px;
 }
+.aboutMePara{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+/* Hobbies */
+
+.display-3{
+  font-family: orbitron;
+  color: lightgray;
+
+}
+
+#accordionExample{
+  font-family: orbitron;
+  margin-left: 15px;
+}
+
+.accordion-body{
+  font-family: 'Courier New', Courier, monospace;
+}
+

@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Link -->
     <link rel="stylesheet" href="./css/main.css"><!-- CSS Link -->
+    <link rel="images" href="./assets/images/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <title>Hunter Sloan's Portfolio</title>
 </head>
+
 <body>
+
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-light">
         <div class="container-fluid">
-        <a class="navbar-brand" href="#">Portfolio:</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#aboutMe">About Me</a>
-            <a class="nav-link" href="#">Projects</a>
-            <a class="nav-link" href="#">Contact</a>
-        </div>
-        </div>
+            <a class="navbar-brand" href="#">Portfolio:</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#aboutMe">About Me</a>
+                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#contactPage">Contact</a>
+                </div>
+            </div>
         </div>
     </nav>
-    
-    
+
+
     <div class='landingScreen'>
         <h1 class='display-1'>Hunter Sloan</h1>
         <h3 class='landingSecondaryText'>
@@ -34,19 +45,187 @@
             <small class="text-muted">in-training</small>
         </h3>
     </div>
-        
-    
-    
-    
-    <div id='aboutMe'>
-        <h1 class='display-1'>About Me</h1>
-        <p class='aboutMePara'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis ultricies vulputate. Sed eu turpis laoreet, posuere arcu ut, pretium justo. Cras quis mi est. Praesent est ipsum, fermentum eu magna non, congue eleifend neque. Nulla pulvinar velit libero, gravida sodales massa ultrices eu. Etiam mi mi, convallis et enim et, lobortis euismod dui. Nam sollicitudin semper metus, condimentum venenatis leo tincidunt ut. Fusce maximus odio urna. Nullam mattis risus in ex fermentum, ac rutrum mi ultricies.
 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras erat quam, volutpat ut varius vitae, maximus sed enim. Fusce in tortor blandit, venenatis purus nec, scelerisque enim. Donec vehicula nunc et lectus volutpat, id iaculis eros egestas. Aliquam erat volutpat. Aenean quis pellentesque libero. Integer sit amet placerat risus. Proin condimentum mattis semper. Mauris a malesuada elit. Etiam molestie porta nisi, a sagittis neque interdum in.
+
+
+
+    <div id='aboutMe'>
+        <h1 class='display-1' id='aboutMeandHobbies'>
+            About me
+            <small class="text-muted">and some hobbies</small>
+        </h1>
+        <p class='aboutMePara'>
+            Hello and welcome to my portfolio, my name is Hunter Sloan and I'm glad you've stopped by and hopefully
+            learn a little about me.
+            <br>
+            Growing up in central Indiana I’ve always had a love for tech but never thought about it as a career option,
+            I was chasing my dream career that I now realize was for all the wrong reasons. Once I came to this
+            conclusion, as if fate had read my mind, an ad on Facebook for Eleven Fifty Academy scrolled by and a
+            wonderful chain of events ensued. Originally interested in their cybersecurity course, I did some research
+            on their web dev course and what even a web dev does. I found that this world of computer programming fit
+            what I wanted my lifestyle to be and so I took the leap of faith and got in touch with EFA.
+            <br>
+            Thankfully with a lot of hope and a little luck I was able to attend EFA's full-time Web Development program
+            in the summer of '21. This is an intensive and immersive 12-week course on the fundamentals of web
+            development including topics such as; HTML, CSS, JavaScript, Node.js, Bootstrap, Firebase, GitHub, and much
+            more.
         </p>
+        <br>
     </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script><!-- Bootstrap/JS Link --> 
+
+
+    <div class="accordion" id="accordionExample">
+        <h3 class='display-3'>Hobbies</h3>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Hobbies & Intrests
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+                        <li>Video games and Anime</li>
+                        <li>Anything to do with cars and engines but I favor Japanese automobiles</li>
+                        <li>Fishing & camping, being outdoors and roughing it</li>
+                        <li>Of course coding and programming, trying to learn as much as possible.</li>
+                        <li>Experiencing others culture especailly food</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+
+    <div id='projects'>
+        <h1 id='projectHeading' class='display-1'>Projects</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;" id='cardOne'>
+                        <img src="./assets/images/creative-css3-tutorials.jpg" class="card-img-top"
+                            alt="sorry not found">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS Creature Project</h5>
+                            <p class="card-text">A project to stregnthen understanding of CSS, goal was to create a
+                                creature using only CSS and HTML.</p>
+                            <a href="https://codepen.io/hunter-sloan98/pen/VwbWNyb" target="blank"
+                                class="btn btn-primary">Check it out on CodePen</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;" id='cardTwo'>
+                        <img src="./assets/images/Star-wars.jpg" class="card-img-top" alt="sorry not found">
+                        <div class="card-body">
+                            <h5 class="card-title">Static Layout Project</h5>
+                            <p class="card-text">A project in which we're tasked with recreating, to the best of our
+                                abilities, a website we choose from a list using only CSS and HTML no JavaScript.
+                                https://starwars.com is the site I recreated</p>
+                            <a href="https://hunter-sloan98.github.io/StaticLayout/" class="btn btn-primary"
+                                target='blank'>Static Layout Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;" id='cardThree'>
+                        <img src="./assets/images/download.png" class="card-img-top" alt="sorry not found">
+                        <div class="card-body">
+                            <h5 class="card-title">API Project #1</h5>
+                            <p class="card-text">Intensive project where we pick from a list of API's and built an
+                                application around them using HTML,JavaScript, and CSS. We had to fetch and display the
+                                data from our selected API endpoint. I built a pokemon randomizer using the pokeapi.</p>
+                            <a href="https://hunter-sloan98.github.io/API-Project-1/" class="btn btn-primary"
+                                target='blank'>PokeDex Randomizer</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;" id='cardFour'>
+                        <img src="./assets/images/cryptocurrency.jpg" class="card-img-top" alt="sorry not found">
+                        <div class="card-body">
+                            <h5 class="card-title">API Project #2</h5>
+                            <p class="card-text">Another API project, this time we used an API that needed a key. I
+                                bulit an applicatin using the coinlayer api. Input a crypto's stock ticker and get the
+                                updated rate in USD.</p>
+                            <a href="https://hunter-api-project-2.web.app/" class="btn btn-primary" target="blank">Live
+                                Crypto Rates</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
+
+    <div id='contactPage'>
+        <h1 class='display-1'>Contact</h1>
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xknkqzln"
+            method="post">
+            <fieldset id="fs-frm-inputs">
+                <label for="full-name" id='fullNameText'>Full Name</label>
+                <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                <br>
+                <label for="email-address" id='emailText'>Email Address</label>
+                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                <br>
+                <label for="message" id='messageText'>Message</label>
+                <textarea rows="5" name="message" id="message" placeholder="Please put your message here."
+                    required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                <br>
+                <input type="submit" value="Submit" id='submitBtn'>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script><!-- Bootstrap/JS Link -->
 </body>
+
 </html>

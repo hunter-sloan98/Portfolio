@@ -1,0 +1,30 @@
+#projects{
+  padding-top: 35%;
+  padding-left: 15px;
+}
+
+#cardOne{
+  border: 5px dashed rgb(99, 0, 0);
+  background-color: lightgray;
+  font-family: orbitron;
+  
+}
+
+#cardTwo{
+  border: 5px dashed rgb(99, 0, 0);
+  background-color: lightgray;
+  font-family: orbitron;
+
+}
+#cardThree{
+  border: 5px dashed rgb(99, 0, 0);
+  background-color: lightgray;
+  font-family: orbitron;
+
+}
+
+#cardFour{
+  border: 5px dashed rgb(99, 0, 0);
+  background-color: lightgray;
+  font-family: orbitron;
+}

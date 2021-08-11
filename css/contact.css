@@ -1,0 +1,60 @@
+#contactPage{
+  padding-top: 15%;
+  padding-left: 15px;
+  padding-bottom: 15%;
+}
+
+#fs-frm-inputs{
+  border: 5px ridge lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#fullNameText{
+  font-family: orbitron;
+  color: lightgray;
+  font-size: 16px;
+}
+
+#emailText{
+  font-family: orbitron;
+  color: lightgray;
+  font-size: 16px;
+}
+
+#messageText{
+  font-family: orbitron;
+  color: lightgray;
+  font-size: 16px;
+}
+
+#full-name{
+  font-family: orbitron;
+  color: rgb(24, 24, 24);
+  font-size: 14px;
+  width: 20%;
+}
+#email-address{
+  font-family: orbitron;
+  color: rgb(24, 24, 24);
+  font-size: 14px;
+  width: 30%;
+}
+
+#message{
+  font-family: orbitron;
+  color: rgb(24, 24, 24);
+  font-size: 14px;
+  width: 40%;
+  height: 200px;
+}
+
+#submitBtn{
+  font-family: orbitron;
+  color: rgb(24, 24, 24);
+  font-size: 14px;
+  width: 15%;
+}
