@@ -6,6 +6,11 @@
   text-align: center;
 }
 
+.landingScreen:hover{
+  transform: scale(1.6);
+  color: red;
+}
+
 
 
 
